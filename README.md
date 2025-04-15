@@ -99,4 +99,4 @@ Console.ReadLine();
 
 ## Licença
 
-Este projeto é licenciado sob a [MIT License](LICENSE).
+Este projeto é licenciado sob a [Apache License 2.0 License](LICENSE).
