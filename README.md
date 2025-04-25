@@ -5,16 +5,17 @@ Este repositório contém um exemplo de uso do RabbitMQ em uma aplicação .NET 
 [![Fiotec](https://img.shields.io/badge/Fundação-Fiotec-skyblue)](https://www.fiotec.fiocruz.br/)
 [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-4.0.6-FF6600)](https://www.rabbitmq.com/)
 [![.NET 8.0](https://img.shields.io/badge/.NET-8.0-blue)](https://dotnet.microsoft.com/)
+[![Docker](https://img.shields.io/badge/Docker-20.10-blue)](https://www.docker.com/)
 
 ## Pré-requisitos
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [RabbitMQ](https://www.rabbitmq.com/download.html) instalado e em execução
-- Docker (opcional, para executar o RabbitMQ em um container)
+- [Docker](https://www.docker.com/)  (opcional, para executar o RabbitMQ em um container)
 
 ## Configuração do RabbitMQ
 
-Se você não possui o RabbitMQ configurado, pode usar o Docker para iniciar rapidamente:
+Se você não possui o RabbitMQ configurado ou disponível, pode usar o Docker para iniciar rapidamente:
 
 ```bash
 docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
@@ -27,7 +28,7 @@ Acesse o painel de administração em [http://localhost:15672](http://localhost:
 - **Producer**: Envia mensagens para a fila.
 - **Consumer**: Consome mensagens da fila.
 
-## Código de Exemplo
+<!-- ## Código de Exemplo
 
 ### Producer
 
@@ -94,7 +95,7 @@ Console.ReadLine();
 1. Clone este repositório.
 2. Configure o RabbitMQ conforme descrito acima.
 3. Execute o **Producer** para enviar mensagens.
-4. Execute o **Consumer** para consumir mensagens.
+4. Execute o **Consumer** para consumir mensagens. -->
 
 ## Referências
 
