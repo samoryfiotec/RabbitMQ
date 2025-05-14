@@ -5,6 +5,8 @@ namespace FilaService.Abstractions
 {
     public interface IFilaServices
     {
+        bool RabbitMQEnabled { get; }
+
         public interface IFilaServices
         {
             void SendMessage<T>(T message);
