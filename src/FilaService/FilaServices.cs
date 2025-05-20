@@ -21,8 +21,6 @@ namespace FilaService
             }
         }
 
-
-
         public FilaServices(IConfiguration config)
         {
             _config = config;
