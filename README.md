@@ -27,11 +27,16 @@ Acesse o painel de administração em [http://localhost:15672](http://localhost:
 - **APIEnvio**: Envia mensagens para a fila.
 - **RabbitMQ**: Cria a fila de mensagens.
 - **WorkerConsumidor**: Consome mensagens da fila.
+- **RabbitMQ.Tests**: Projeto de testes da aplicação
 
 ## Referências
 
 - [Documentação do RabbitMQ](https://www.rabbitmq.com/documentation.html)
 - [Documentação do .NET](https://learn.microsoft.com/dotnet/)
+
+## RabbitMQ Simulator
+
+Para gerar um diagrama simulando uma fila use o [RabbitMQ Simulator](https://tryrabbitmq.com/)
 
 ## Licença
 
